@@ -1,0 +1,18 @@
+Source: libbioperl-db-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7), perl (>= 5.10) | libmodule-build-perl
+Build-Depends-Indep: perl (>= 5.6.100), bioperl (>= 1.6.1),
+  libdbi-perl
+Maintainer: Randy Hancock <rhancock@>
+Standards-Version: 3.8.3
+Homepage: http://search.cpan.org/dist/BioPerl-DB/
+
+Package: libbioperl-db-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, perl (>= 5.6.100),
+  bioperl (>= 1.6.1), libdbi-perl
+Description: BioPerl-DB - package for biological databases
+ Describe the object here
+ .
+ This description was automagically extracted from the module by dh-make-perl.
